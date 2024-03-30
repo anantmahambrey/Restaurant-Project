@@ -1,0 +1,244 @@
+        body{
+            background-color:rgb(249, 244, 239);
+        }
+        .intro{
+            background-color:rgb(249, 244, 239);
+            border-style:double;
+            border-color:rgb(24, 69, 78);
+            border-width:9px;
+            height:575px;
+        }
+        .restpic{
+            height:320px;
+            width:450px;
+            position:absolute;
+            top:130px;
+            right:96px;
+            border-radius:5px;
+            box-shadow:1px 1px 2px black;
+            z-index:100;
+        }
+        .info{
+            display:grid;
+            grid-template-rows: 100px 46px 50px;
+            width:800px;
+            margin-top:180px;
+            margin-left:40px;
+            row-gap:10px;
+        }
+        .locationone{
+            color:black;
+            margin-left:160px;
+            font-family:Nanum Myeongjo;
+            font-weight:bold;
+        font-size:28px;
+        margin-top:20px;
+        }
+        .name{
+            font-family:Great Vibes;
+            font-size:80px;
+            margin:0
+        }
+        .title{
+            background-color:rgb(127, 18, 55);
+            color:white;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+        }
+        .bottom{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            background-color:rgb(24, 69, 78);
+        }  
+        .food{
+            font-family:Nanum Myeongjo;
+            font-size:30px;
+            margin-left:0px;
+            width:190px;
+            display:flex;
+            justify-content:center;
+            color:white;
+        }
+        .ambience{
+            font-family:Nanum Myeongjo;
+            font-size:30px;
+            width:190px;
+            display:flex;
+            justify-content:center;
+            border-left-width:1px;
+            border-left-style:solid;
+            border-left-color:rgb(255, 255, 255);
+            border-right-width:1px;
+            border-right-style:solid;
+            border-right-color:rgb(255, 255, 255);
+            color:white;
+        }
+        .serenity{
+            font-family:Nanum Myeongjo;
+            font-size:30px;
+            width:190px;
+            display:flex;
+            justify-content:center;
+            color:white;
+        }
+        .design{
+            position:absolute;
+            top:16px;
+            right:0px;
+            border-left-width:35px;
+            border-left-style:double;
+            border-left-color:rgb(24, 69, 78);
+            height:575px;
+            width:150px;
+        }
+        .mainpage{
+            display:flex;
+            border-left:5px rgb(255, 255, 255) solid;
+            border-right:5px white solid;
+            align-items:center;
+            background-color:rgb(24, 69, 78);
+            height:575px;
+            margin-top:270px;
+        }
+        .gridinfo{
+            display:grid;
+            grid-template-rows:200px 200px;
+            width:650px;
+            margin-left:80px;
+            row-gap:60px;
+        }
+        .row{
+            display:grid;
+            grid-template-columns:300px 300px 300px;
+            column-gap:70px;
+        }
+        .box{
+            border:2px solid rgb(255, 255, 255);
+        }
+        .box1{
+            border:2px solid rgb(255, 255, 255);
+            display:flex;
+            justify-content: center;
+           align-items: center;
+        }
+        .foodpic{
+            width:100%;
+            height:100%;
+        }
+        .description{
+            font-size:22px;
+            font-family:Nanum Myeongjo;
+            color:white;
+           text-align:center;
+        }
+        .box2{
+            border:2px solid rgb(255, 255, 255);
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            width:300px;
+            place-items: center;
+        }
+        .points{
+            font-family:Nanum Myeongjo;
+            font-size:22px;
+            color:white;
+            text-align:center;
+        }
+        .moreinfo{
+            background-color:rgb(127, 18, 55);
+            height:550px;
+            margin-top:20px;
+            width:1150px;
+            margin-left:13px;
+            display:grid;
+            grid-template-rows:1fr 1fr;
+
+        }
+       .sub1{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr 2fr;
+        border-bottom:solid 2px rgb(255, 255, 255);
+       }
+       .sub2{
+        width:100%;
+        display:grid;
+        grid-template-columns:2fr 1fr;
+       }
+       .barr{
+        width:100%;
+        height:99%;
+       }
+       .sub1 .barimage{
+        border-right:solid 1px white;
+       }
+       .sub2 .barimage{
+        border-left:solid 1px white;
+       }
+       .sub1 .bartext{
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        place-items:center;
+       }
+       .review{
+       font-family:Nanum Myeongjo;
+       color:white;
+       font-size:21px;
+       margin-left:6px;
+       margin-right:2px;
+       }
+       .subrating{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+       }
+       .sub2 .bartext{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+       }
+       .rating{
+        font-family:Nanum Myeongjo;
+       color:white;
+       font-size:18px;
+       text-align:center;
+       }
+       .outro{
+        margin-top:20px;
+        height:300px;
+        background-color: rgb(24, 69, 78);
+        border-left:solid 14px rgb(249, 244, 239);
+        border-right:solid 20px rgb(249, 244, 239);
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+       }
+       .icons{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        place-items:center;
+       }
+       .sitenames{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        place-items:center;
+       }
+       .names{
+        color:white;
+        font-size:25px;
+       }
+       .iconpic{
+        height:100px;
+        width:100px;
+        margin-top:20px;
+        border-radius:10px;
+        margin-top:45px;
+       }
+       .address{
+        display:grid;
+        place-items:center;
+       }
+       .location{
+        font-family:Nanum Myeongjo;
+        font-size:25px;
+        color:white;
+       }
