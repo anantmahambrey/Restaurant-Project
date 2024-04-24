@@ -29,9 +29,9 @@
         .locationone{
             color:black;
             margin-left:160px;
-            font-family:Nanum Myeongjo;
-            font-weight:bold;
-        font-size:28px;
+            font-family:'Lucida Sans';
+            /* font-weight:bold; */
+        font-size:24px;
         margin-top:20px;
         }
         .name{
@@ -198,7 +198,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
        }
        .rating{
-        font-family:Nanum Myeongjo;
+        font-family:'Lucida Sans';
        color:white;
        font-size:18px;
        text-align:center;
@@ -224,13 +224,20 @@
        }
        .names{
         color:white;
-        font-size:25px;
+        font-size:20px;
+        font-family:'Lucida Sans';
        }
        .iconpic{
         height:100px;
         width:100px;
         margin-top:20px;
-        border-radius:10px;
+        border-radius:50%;
+        margin-top:45px;
+       }
+       .iconpic1{
+        height:100px;
+        width:100px;
+        margin-top:20px;
         margin-top:45px;
        }
        .address{
@@ -238,7 +245,56 @@
         place-items:center;
        }
        .location{
-        font-family:Nanum Myeongjo;
-        font-size:25px;
+        font-family:'Lucida Sans';
+        font-size:23px;
         color:white;
        }
+       @media only screen and (max-width:1000px){
+        .restpic{
+            height:260px;
+            width:370px;
+            top:130px;
+            right:80px;
+        }
+        .name{
+            font-size:60px;
+        }
+        .food,.ambience,.serenity{
+            width:140px;
+            font-size:25px;
+        }
+        .locationone{
+            color:black;
+            margin-left:120px;
+        font-size:23px;
+        margin-top:8px;
+        }
+        .intro{
+            width:100%;
+        }
+        .mainpage{
+            width:100%;
+        }
+        .moreinfo{
+            width:100%;
+        }
+        .outro{
+            width:100%;
+        }
+        .gridinfo{
+            display:grid;
+            grid-template-rows:190px 220px;
+            width:90%;
+            margin-left:50px;
+            row-gap:80px;
+        }
+        .row{
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap:60px;
+        }
+        .box2{
+            width:240px;
+        }
+       }
+       
